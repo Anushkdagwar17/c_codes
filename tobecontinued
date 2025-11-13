@@ -20,24 +20,24 @@ void multiply(int a, int b){
 int main(){
     int a,b;
     char operator;
-    printf("Enter the operation (+,-,*,): ");
+    printf("Enter the operation (+,-,*): ");
     scanf("%c",&operator);
     
     switch(operator){
         
-        case'A':
+        case'+':
         printf("\nPlease enter two numbers: ");
         scanf("%d%d",&a,&b);
         add(a,b);
         break;
         
-        case'S':
+        case'-':
         printf("\nPlease enter two numbers: ");
         scanf("%d%d",&a,&b);
         subtract(a,b);
         break;
         
-        case'M':
+        case'*':
         printf("\nPlease enter two numbers: ");
         scanf("%d%d",&a,&b);
         multiply(a,b);
