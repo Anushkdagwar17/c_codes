@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int add(int a, int b){
+    return a + b;
+} 
+int subtract(int a, int b){
+    return a - b;
+} 
+
+int multiply(int a, int b){
+    return a * b;
+} 
+
+float divide(int a, int b){
+    
+    return (float)a / b;
+}
+
+int main(){
+    
+    printf("\nAddition: %d", add(5,10));
+    printf("\nSubtraction: %d", subtract(5,10));
+    printf("\nMultiplication: %d", multiply(5,10));
+    printf("\nDivision: %.2f", divide(5,10.0));
+
+    return 0; 
+}
