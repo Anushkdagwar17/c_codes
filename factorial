@@ -1,0 +1,19 @@
+// Program to print the factorial of number entered by the user.
+#include <stdio.h>
+
+int main(){
+    int i,num;
+    long long fact=1;    //long long stores large integer values 
+    printf("Enter the number: ");
+    scanf("%d",&num);
+    
+    for(i=num; i>=1; i--){
+        
+        fact= fact*i;
+   
+    }
+
+    printf("\n\nFactorial = %lld",fact);
+
+    return 0;
+}
