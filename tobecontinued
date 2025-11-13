@@ -1,0 +1,56 @@
+//to  be continued......   switch case function calling 
+
+#include <stdio.h>
+
+void add(int a, int b){
+    int result=a+b;
+    printf("\nAdditon = %d",result);
+} 
+void subtract(int a, int b){
+    int result=a-b;
+    printf("\nSubstracton = %d",result);
+} 
+
+void multiply(int a, int b){
+    int result=a*b;
+    printf("\nMultiplication = %d",result);
+} 
+
+
+int main(){
+    int a,b;
+    char operator;
+    printf("Enter the operation (+,-,*,): ");
+    scanf("%c",&operator);
+    
+    switch(operator){
+        
+        case'A':
+        printf("\nPlease enter two numbers: ");
+        scanf("%d%d",&a,&b);
+        add(a,b);
+        break;
+        
+        case'S':
+        printf("\nPlease enter two numbers: ");
+        scanf("%d%d",&a,&b);
+        subtract(a,b);
+        break;
+        
+        case'M':
+        printf("\nPlease enter two numbers: ");
+        scanf("%d%d",&a,&b);
+        multiply(a,b);
+        break;
+        
+    
+        default :
+            printf("Invalid Input !");
+        }
+        
+    return 0;
+    
+}  
+  
+    
+    
