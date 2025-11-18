@@ -1,4 +1,4 @@
-//Program to read the values of a,b,c and display value of x where x=a/b-c.
+//Program to read the values of a,b,c and display value of x where x=a/b-c..
 
 #include <stdio.h>
 
